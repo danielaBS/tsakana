@@ -1,0 +1,261 @@
+.main-content {
+    position: absolute;
+    top: 18vh;    
+    z-index: -1;
+    
+}
+.carrusel {
+    height: 100vh;    
+    overflow: hidden;    
+}
+.imgCrrusel {
+    display: none;
+}
+.carruselLabel {   
+    top:50%;
+    right: 50%;    
+    font-size: 64px;
+    text-align: center ;
+    font-weight: 700; 
+    color: white; 
+    background-color: transparent !important;
+    text-shadow: 2px 2px 4px black;
+}
+.arrows {
+    width: 100%;
+    height: 50px;
+    top: 45vh;
+    position: absolute;
+    z-index: 1;
+    display: flex;     
+    justify-content: space-between;   
+}
+.section1 .arrows {
+    top: 135vh    
+}
+.section2 .arrows {
+    top: 205vh    
+}
+
+.arrows div{
+    cursor: pointer;
+    min-height: 2rem;
+    min-width: 2rem;
+    height: 3.6vw;
+    width: 3.6vw;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 1px 1px 5px darkgray;
+}
+.active {
+    display: block;
+}
+.active1 {
+    display: flex !important;
+}
+.hide {
+    display: none !important;
+}
+.sectionTitle {
+    padding: 1rem 0 1rem 3rem;
+    display: flex;
+    align-items: center;
+    font-size: 36px;
+    font-weight: bold;
+}
+.linebreak {    
+    width: 70%;
+    height: 1px;
+    background-color: lightgrey;
+
+}
+.section1 {
+    width: 98%;
+    margin: auto;
+    padding: 1rem 0.5rem;
+    height: 60vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.section1 .productCard {
+    width: 300px;
+    height: 400px;
+    background-color: ivory;
+    flex-direction: column;
+    align-items: center;
+    display: none;    
+}
+.section2 {
+    padding: 1rem auto;
+    height: 45vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.section2 .mockProdCard {
+    width: 200px;
+    height: 300px;
+    margin: 0 1rem;
+    background-color: ivory;
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+.contain {
+    width: 200px;
+    height: 200px;
+    object-fit: contain !important;
+}
+.fill {
+    width: 240px;
+    height: 300px;
+    object-fit: cover !important;
+}
+.cardFooter {
+    padding: 8px 12px;
+    width: 80%;
+    height: 100px;
+    justify-content: flex-start;
+    display: flex;
+    flex-direction: column;
+}
+.banner {
+    width: 100%;
+    height: 60vh;
+    margin-top: 2rem;
+}
+.banner img {
+    width: 100%;
+    height: 60vh;
+    object-fit: cover;
+}
+.section3 {
+    margin: 2rem 0;
+    width: 100%;
+    padding: 1rem auto !important;
+    height: 70vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    overflow: hidden;
+}
+.section3 .arrows {
+    z-index: 1;
+    top: 335vh
+}
+.section3 .productCard3 {
+    width: 240px;
+    height: 500px;
+    margin: 0 1rem;
+    display: none;
+}
+.section3 .productCard3 .fill {
+    width: 240px;
+    height: 400px;
+
+}
+.section3 .overlay {
+    height: 350px;
+    position: absolute;
+    width: inherit;    
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-size: 48px;
+    text-align: center;
+    align-items: center;
+    justify-content: flex-end;
+    text-shadow: 2px 2px 5px black;    
+}
+.overlay a {
+    font-size: 24px;
+    color: white;
+    text-shadow: 2px 2px 5px black;    
+}
+
+.footer {
+    background-color: lightgray;
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 393vh;
+}
+/* Responsive */
+
+@media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {    
+      .main-content {
+          top: 12vh;
+      }          
+      .carrusel {
+          top:auto;
+          width: 100vw;
+          height: 40vh;
+      }      
+      .arrows {
+          top: 20vh
+      }
+      .carruselLabel{
+          font-size: 36px;
+      }      
+      .section1 {
+          margin: 0;
+          width: 100vw !important;          
+          flex-wrap: nowrap;
+          overflow-x: scroll;
+          height: 68vh;
+          padding: 0 ;
+      }      
+      .section2, .section3 {
+          margin: 0;
+          height: 54vh;
+          flex-wrap: nowrap;
+          overflow-x: scroll;
+          width: 100vw !important;
+      }
+        .section1 .productCard, .section2 .mockProdCard {
+            display: flex !important;
+            height: 420px !important;
+            height: inherit;
+            position: relative;
+        }      
+        .section3 .productCard3 .overlay {
+            font-size: 24px!important;
+            width: inherit !important;
+            position: relative !important;
+            height: auto;
+            left: 40%;
+            justify-content: flex-start;
+        }
+        .productCard img {
+            object-fit: cover !important;
+        }
+        .section1 .arrows, .section2 .arrows, .section3 .arrows {
+            display: none !important;
+        }
+      .sectionTitle {
+          margin: 1rem 0;
+          padding: 0;
+      }
+      .banner {
+          width: 100vw;
+          height: 50vh;
+          margin-top: 0;
+          overflow: hidden;
+      }
+      .banner img{
+          object-fit: scale-down;
+          height: 40vh;
+      }          
+  }

@@ -1,0 +1,196 @@
+.navbar {
+    position: fixed;
+    border-bottom: 2px solid lightgrey;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding: 8px 5vw;
+}
+
+.cover {
+    object-fit: cover;
+  }
+ .brandCategories {
+     width: 80%;
+     display: flex;
+     flex-direction: row;
+ }
+.links {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.links span:hover {
+    cursor: pointer;
+    font-weight: bold;
+}
+.after {
+    position: relative;
+    height: 2px;
+    text-align: center;
+    width: inherit;
+    background-color: darkgray;
+    display: none;
+}
+.show {
+    display: block;
+}
+.separator {
+    width: 2px;
+    height: 5vh;
+    background-color: rgb(226, 225, 225);
+    margin: 0 1rem;
+}
+.searchBar {
+    display: flex; 
+    width: auto !important;  
+    align-items: center; 
+    justify-self: flex-end;
+}
+.searchBar input {
+    padding: 8px 12px;
+    border: none ;
+    border-bottom: 1px solid darkgray !important;
+}
+.searchBar svg {
+    position: relative;
+    top: 0.15rem !important;
+    right: 10%;
+}
+.icons {
+    width: 20%;
+    display: flex;    
+    flex-direction: row;
+    align-items: center;
+    justify-self: flex-end;
+}
+.icons svg{
+    margin-left: 0.5rem;
+
+}
+.dot {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    position: relative;
+    background-color: deepskyblue;
+    text-align: center;
+    right: 15%;
+    color: white;
+    font-weight: 400;
+    font-size: 11px;
+    padding: 0 1px 1px 0;
+}
+.categories {
+    width: 100%;
+    top: 12.8vh;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    font-size: 12px;    
+    padding: 4px 0;
+    border-bottom: 1px solid lightgrey;
+    background-color: white;
+}
+
+.dropbtn {
+    background-color: transparent;
+    padding: 6px 12px;    
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+  }
+  .category {
+    margin-right: 1.4rem;
+    padding: 3px 6px;
+    justify-content: center;
+  }
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    margin-right: 2rem;
+  }
+  .dropdown svg {
+      position: relative;
+      top: -4px
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}  
+
+  @media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  {
+      .navbar {
+          display: flex;
+          flex-wrap: wrap;          
+          align-items: center;
+          height: auto;
+          padding: 1rem;
+      }
+      .brandCategories {
+          width: 10% !important;
+          margin: auto;
+          
+      }
+      .searchBar {
+          align-items: center;
+          order: -1 !important;
+          width: 100% !important;
+      }	   
+      .searchBar input {
+          width: 90%;
+      } 
+      .searchBar svg {
+          right: 4%;
+      }
+      .links {
+          display: none;
+      }    
+      .categories {
+          display: none;
+      } 
+  }
+
+  @media 
+  only screen and (max-width: 420px),
+  (min-device-width: 320px) and (max-device-width: 420px)  {
+      .navbar {
+          width: 100%;
+          align-content: flex-start;
+          justify-content: flex-start;
+      }
+    .searchBar svg {
+        right: 10%;
+    }
+    .brandCategories {
+        width: 70% !important;
+    }
+    .icons {
+        width: 30% !important;
+    }
+  }

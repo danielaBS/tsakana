@@ -1,0 +1,53 @@
+.container {
+    background-color: rgb(243, 242, 242);
+    height: 50vh;
+    width: 100%;
+    position: absolute;
+    top: 393vh;  
+}
+.info {
+    width: 50%;
+    height: 40vh;
+    padding: 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.info div {
+    display: flex;
+    flex-direction: column;
+    margin: 2rem  0 0 3rem;
+}
+.info label {
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+.info span, .info a {
+    font-size: 16px;
+    margin-bottom: 0.5rem;
+    text-decoration: none;
+    color: inherit;
+}
+.bottom {
+    width: 100% !important;
+    display: flex;
+    justify-content: space-around;
+}
+.cards {
+    margin-right: 3rem;
+}
+.cardLogos {
+    display: flex;    
+}
+@media 
+  only screen and (max-width: 760px),
+  (min-device-width: 768px) and (max-device-width: 1024px)  { 
+      .container {
+          width: 100vw;
+          padding-bottom: 1rem;
+      }   
+      .container, .info {
+          height: auto;
+          flex-wrap: wrap;
+      }
+
+}
