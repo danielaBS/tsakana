@@ -8,7 +8,9 @@
     flex-direction: row;
     padding: 8px 5vw;
 }
-
+.barMenu {
+    display: none;
+}
 .cover {
     object-fit: cover;
   }
@@ -153,8 +155,8 @@
           padding: 1rem;
       }
       .brandCategories {
-          width: 10% !important;
-          margin: auto;
+          width: 1% !important;
+          margin: 0 auto;
           
       }
       .searchBar {
@@ -174,6 +176,10 @@
       .categories {
           display: none;
       } 
+      .barMenu {
+          display: block;
+          font-size: 48px;
+      }
   }
 
   @media 
@@ -188,7 +194,8 @@
         right: 10%;
     }
     .brandCategories {
-        width: 70% !important;
+        width: 40% !important;
+        margin-right: 2rem;          
     }
     .icons {
         width: 30% !important;

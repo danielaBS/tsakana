@@ -183,20 +183,12 @@
     text-shadow: 2px 2px 5px black;    
 }
 
-.footer {
-    background-color: lightgray;
-    height: 50vh;
-    width: 100%;
-    position: absolute;
-    top: 393vh;
-}
 /* Responsive */
 
 @media 
-  only screen and (max-width: 760px),
-  (min-device-width: 768px) and (max-device-width: 1024px)  {    
+  only screen and (max-width: 760px), (min-device-width: 768px) and (max-device-width: 1024px) {    
       .main-content {
-          top: 12vh;
+          top: 15vh;
       }          
       .carrusel {
           top:auto;
@@ -204,7 +196,7 @@
           height: 40vh;
       }      
       .arrows {
-          top: 20vh
+          top: 12vh
       }
       .carruselLabel{
           font-size: 36px;
@@ -258,4 +250,21 @@
           object-fit: scale-down;
           height: 40vh;
       }          
+  }
+  @media (min-device-width: 768px) and (max-device-width: 1024px)  {
+      .main-content {
+          top: 10vh
+      }
+      .arrows {
+          top:20vh
+      }
+    .section1 {        
+        height: 38vh;
+        
+    }      
+    .section2, .section3 {        
+        height: 34vh;
+    }
+     
+
   }

@@ -1,7 +1,6 @@
 import './Main.css';
-import Header from '../../Templates/Header';
-import Footer from '../../Templates/Footer';
 import React from 'react';
+import Footer from '../../Templates/Footer';
 
 import carrusel1 from '../../assets/carrusel1.png';
 import carrusel2 from '../../assets/carrusel2.png';
@@ -145,7 +144,6 @@ class Main extends React.Component {
 
     return (
       <>
-        <Header/>
         <div class="main-content">
           <div class="carrusel">
             <img class="imgCrrusel active" src ={carrusel1} width="100%"></img>

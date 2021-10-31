@@ -10,6 +10,8 @@ import logo1 from '../assets/cardLogos/cc-visa-brands.svg';
 import logo2 from '../assets/cardLogos/cc-mastercard-brands.svg';
 import logo3 from '../assets/cardLogos/cc-amex-brands.svg';
 import logo4 from '../assets/cardLogos/cc-diners-club-brands.svg';
+import logo5 from '../assets/cardLogos/pse.png';
+import logo6 from '../assets/cardLogos/epayco.png';
 
 class Footer extends React.Component {
     render() {
@@ -36,18 +38,18 @@ class Footer extends React.Component {
                     </div>    
                 </div>           
                 <div class="subscribe">
-
-
                 </div>
                 <div class="bottom">
                     <span style={{marginLeft:'3.5rem'}}>Copyright © 2021 Tsakana. Todos los derechos reservados.</span>
                     <div class="cards">
-                        <label>ACEPTAMOS</label>
+                        <strong>ACEPTAMOS</strong>
                         <div class="cardLogos">
                             <img src={logo1}></img>
                             <img src={logo2}></img>
                             <img src={logo3}></img>
                             <img src={logo4}></img>
+                            <img style={{width: '70px'}}src={logo5}></img>
+                            <img style={{width: '50px'}}src={logo6}></img>
                         </div>
                     </div>
                 </div>

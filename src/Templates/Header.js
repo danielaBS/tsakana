@@ -5,7 +5,7 @@ import React from 'react';
 //import iconsLibrary and each icon
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"; 
 
-import { faSearch, faShoppingBag, faUserAlt, faSortDown, faSortUp } from "@fortawesome/free-solid-svg-icons";
+import { faSearch, faShoppingBag, faUserAlt, faSortDown, faBars } from "@fortawesome/free-solid-svg-icons";
 
 class Header extends React.Component {
   //Array to store data from fakestoreapi.com
@@ -80,6 +80,9 @@ class Header extends React.Component {
      return (
       <> 
         <div className ="navbar">
+          <div class="barMenu">
+            <FontAwesomeIcon className="icons" icon={faBars} size="lg" color="gray"/>
+          </div>
           <div className="brandCategories">
             <div className="brand" style={{marginRight: ' 3rem'}}>
               <img src={logo} className="cover" width="160px"></img>

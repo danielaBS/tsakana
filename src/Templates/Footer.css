@@ -4,6 +4,7 @@
     width: 100%;
     position: absolute;
     top: 393vh;  
+    z-index: -1;
 }
 .info {
     width: 50%;
@@ -30,13 +31,22 @@
 .bottom {
     width: 100% !important;
     display: flex;
-    justify-content: space-around;
+    align-items: center;
 }
 .cards {
-    margin-right: 3rem;
+    align-self: flex-end;
+    justify-self: flex-end;
+    width: 40%;
+    margin: 0 3rem 0 10rem;   
 }
 .cardLogos {
     display: flex;    
+    flex-direction: row;
+    justify-content: space-between;    
+}
+.cardLogos img {
+    width: 35px;
+    object-fit: contain;
 }
 @media 
   only screen and (max-width: 760px),
@@ -49,5 +59,21 @@
           height: auto;
           flex-wrap: wrap;
       }
+      .bottom {
+        flex-wrap: wrap-reverse;
+      }
+      .cards {
+          margin: 1rem auto;
+            width: 80% !important;        
+      }
+      .container {
+          top: 320vh
+      }
+
+}
+@media (min-device-width: 768px) and (max-device-width: 1024px)  {
+    .container {
+        top: 240vh
+    }
 
 }

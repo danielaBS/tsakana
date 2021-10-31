@@ -2,6 +2,8 @@ import React from 'react';
 import { BrowserRouter, Route, Redirect, Switch} from 'react-router-dom';
  
 //import components
+import Header from '../Templates/Header';
+
 import Login from '../Components/Login/Login';
 import Main from '../Components/Main/Main';
 
@@ -9,6 +11,7 @@ function Routes({component: Component, ...restOfProps }) {
 
     return (        
         <BrowserRouter> 
+            <Header/>
             <Route>
                 {// Switch view when changing url
                 }
@@ -17,7 +20,7 @@ function Routes({component: Component, ...restOfProps }) {
                     <Route path="/main" component={Main}/> 
                     <Route path="/login" component={Login}/>                          
                 </Switch>
-            </Route>            
+            </Route>   
         </BrowserRouter>     
     );
 }
