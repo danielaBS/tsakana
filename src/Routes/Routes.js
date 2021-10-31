@@ -10,7 +10,7 @@ import Main from '../Components/Main/Main';
 function Routes({component: Component, ...restOfProps }) {       
 
     return (        
-        <BrowserRouter> 
+        <BrowserRouter basename={process.env.PUBLIC_URL}>
             <Header/>
             <Route>
                 {// Switch view when changing url

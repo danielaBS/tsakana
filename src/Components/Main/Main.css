@@ -227,7 +227,7 @@
             width: inherit !important;
             position: relative !important;
             height: auto;
-            left: 40%;
+            left: -75%;
             justify-content: flex-start;
         }
         .productCard img {
