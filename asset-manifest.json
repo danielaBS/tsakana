@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/tsakana/static/css/main.81c478b0.chunk.css",
-    "main.js": "/tsakana/static/js/main.34f5ef65.chunk.js",
-    "main.js.map": "/tsakana/static/js/main.34f5ef65.chunk.js.map",
+    "main.css": "/tsakana/static/css/main.39b46c85.chunk.css",
+    "main.js": "/tsakana/static/js/main.df6bbdaa.chunk.js",
+    "main.js.map": "/tsakana/static/js/main.df6bbdaa.chunk.js.map",
     "runtime-main.js": "/tsakana/static/js/runtime-main.d8806802.js",
     "runtime-main.js.map": "/tsakana/static/js/runtime-main.d8806802.js.map",
-    "static/js/2.cdd63eb9.chunk.js": "/tsakana/static/js/2.cdd63eb9.chunk.js",
-    "static/js/2.cdd63eb9.chunk.js.map": "/tsakana/static/js/2.cdd63eb9.chunk.js.map",
+    "static/js/2.2caada88.chunk.js": "/tsakana/static/js/2.2caada88.chunk.js",
+    "static/js/2.2caada88.chunk.js.map": "/tsakana/static/js/2.2caada88.chunk.js.map",
     "static/js/3.64325533.chunk.js": "/tsakana/static/js/3.64325533.chunk.js",
     "static/js/3.64325533.chunk.js.map": "/tsakana/static/js/3.64325533.chunk.js.map",
     "index.html": "/tsakana/index.html",
-    "static/css/main.81c478b0.chunk.css.map": "/tsakana/static/css/main.81c478b0.chunk.css.map",
-    "static/js/2.cdd63eb9.chunk.js.LICENSE.txt": "/tsakana/static/js/2.cdd63eb9.chunk.js.LICENSE.txt",
+    "static/css/main.39b46c85.chunk.css.map": "/tsakana/static/css/main.39b46c85.chunk.css.map",
+    "static/js/2.2caada88.chunk.js.LICENSE.txt": "/tsakana/static/js/2.2caada88.chunk.js.LICENSE.txt",
     "static/media/banner.2a1c9f4b.png": "/tsakana/static/media/banner.2a1c9f4b.png",
     "static/media/carrusel1.80e9e2b1.png": "/tsakana/static/media/carrusel1.80e9e2b1.png",
     "static/media/carrusel2.faa89142.png": "/tsakana/static/media/carrusel2.faa89142.png",
@@ -21,6 +21,7 @@
     "static/media/cc-mastercard-brands.c2ebb9fa.svg": "/tsakana/static/media/cc-mastercard-brands.c2ebb9fa.svg",
     "static/media/cc-visa-brands.6207e8e4.svg": "/tsakana/static/media/cc-visa-brands.6207e8e4.svg",
     "static/media/epayco.d5cb211d.png": "/tsakana/static/media/epayco.d5cb211d.png",
+    "static/media/facebook-brands.c719a013.svg": "/tsakana/static/media/facebook-brands.c719a013.svg",
     "static/media/img (1).7144462f.jpg": "/tsakana/static/media/img (1).7144462f.jpg",
     "static/media/img (10).64b85a40.jpg": "/tsakana/static/media/img (10).64b85a40.jpg",
     "static/media/img (11).229a38c1.jpg": "/tsakana/static/media/img (11).229a38c1.jpg",
@@ -33,13 +34,15 @@
     "static/media/img (7).ad8f420e.jpg": "/tsakana/static/media/img (7).ad8f420e.jpg",
     "static/media/img (8).44f4663d.jpg": "/tsakana/static/media/img (8).44f4663d.jpg",
     "static/media/img (9).a5fee428.jpg": "/tsakana/static/media/img (9).a5fee428.jpg",
+    "static/media/instagram-brands.90a80cd5.svg": "/tsakana/static/media/instagram-brands.90a80cd5.svg",
     "static/media/logo.45e9d53e.svg": "/tsakana/static/media/logo.45e9d53e.svg",
-    "static/media/pse.233da666.png": "/tsakana/static/media/pse.233da666.png"
+    "static/media/pse.233da666.png": "/tsakana/static/media/pse.233da666.png",
+    "static/media/twitter-brands.87682341.svg": "/tsakana/static/media/twitter-brands.87682341.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.d8806802.js",
-    "static/js/2.cdd63eb9.chunk.js",
-    "static/css/main.81c478b0.chunk.css",
-    "static/js/main.34f5ef65.chunk.js"
+    "static/js/2.2caada88.chunk.js",
+    "static/css/main.39b46c85.chunk.css",
+    "static/js/main.df6bbdaa.chunk.js"
   ]
 }
