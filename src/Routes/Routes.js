@@ -17,8 +17,8 @@ function Routes({component: Component, ...restOfProps }) {
                 }
                 <Switch>
                     <Route exact path="/" component={Main}/>          
-                    <Route path="/main" component={Main}/> 
-                    <Route path="/login" component={Login}/>                          
+                    <Route  path={process.env.PUBLIC_URL+ "/main"} component={Main}/> 
+                    <Route path= {process.env.PUBLIC_URL +"/login"}component={Login}/>                          
                 </Switch>
             </Route>   
         </BrowserRouter>     
