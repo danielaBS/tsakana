@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Redirect, Switch} from 'react-router-dom';
+import { HashRouter, Route, Redirect, Switch} from 'react-router-dom';
  
 //import components
 import Header from '../Templates/Header';
@@ -10,18 +10,18 @@ import Main from '../Components/Main/Main';
 function Routes({component: Component, ...restOfProps }) {       
 
     return (        
-        <BrowserRouter basename={process.env.PUBLIC_URL}>
+        <HashRouter basename={process.env.PUBLIC_URL}>
             <Header/>
             <Route>
                 {// Switch view when changing url
                 }
                 <Switch>
                     <Route exact path="/" component={Main}/>          
-                    <Route  path={process.env.PUBLIC_URL+ "/main"} component={Main}/> 
-                    <Route path= {process.env.PUBLIC_URL +"/login"}component={Login}/>                          
+                    <Route exact path="/main" component={Main}/> 
+                    <Route exact path="/login" component={Login}/>                          
                 </Switch>
             </Route>   
-        </BrowserRouter>     
+        </HashRouter>     
     );
 }
 export default Routes;

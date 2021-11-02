@@ -33,7 +33,7 @@ class Footer extends React.Component {
                             </div>
                             <div>
                                 <label>SOY ADMIN</label>
-                                <a href="/login">Iniciar sesión</a>                        
+                                <a href="/tsakana#/login">Iniciar sesión</a>                        
                             </div>
                         </div>    
                     </div>           
